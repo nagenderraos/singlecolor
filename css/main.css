@@ -83,7 +83,7 @@
     color: #797979;
     border: 1px solid #388d8e;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     padding: 10px 25px;
   }
 
@@ -741,7 +741,7 @@ video#bgvid {
 
 .action .btn-common{
   margin-top: 55px;
-  float: left;
+/*  float: left;*/
 }
 
 .title {
@@ -2673,8 +2673,8 @@ span.stButton_gradient,
 
 .btn-default:hover{
     
-    background-color:#107cbc;
-    border-color: #107cbc;
+    background-color:#257677;
+    border-color:#257677;
     color:#fff;
 }
 
@@ -2702,9 +2702,17 @@ span.stButton_gradient,
 .btn-primary{
     border-radius: 0px;
     color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
+    background-color: #449d9e;
+    border-color: #449d9e;
     height: 40px;
+    width: 84px;
+}
+
+.btn-primary:hover{
+    background-color: #257677;
+    border-color:#257677;
+    color: #fff;
+    
 }
    
 
@@ -2890,4 +2898,50 @@ sg-small-offset-2 {
 .app-download-links a {
     display: inline-block;
     margin: 10px 10px;
+}
+
+.sg-yellow-bg {
+    background-color: #449d9e;
+}
+
+.sg-desktop-grid .sg-row{
+    min-width: 1025px;
+    max-width: 1280px;
+}
+
+.sg-header6 {
+    font-family: sharp-sans-medium,Arial,sans-serif;
+    font-size: 24px;
+    line-height: 55px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+
+@media only screen and (min-width: 64.0625em)
+.sg-column, .sg-columns {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    float: left;
+}
+
+.layout-footer .help-container {
+    margin-left: 20px;
+}
+
+@media only screen and (min-width: 64.0625em)
+.sg-column, .sg-columns {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    float: left;
+}
+
+columns:last-child {
+    float: right;
+}
+
+#info-booking{
+    
+    
 }
