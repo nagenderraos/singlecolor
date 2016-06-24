@@ -495,7 +495,7 @@ ul.sub-menu {
 }
 
 .copyright-text{
-  margin-top: 70px;
+  margin-top: 31px;
 }
 
 /*************************
@@ -2946,4 +2946,24 @@ columns:last-child {
     
 }
 
+.social-links{
+    text-align: center;
+    margin-top: 23px;
+    
+}
+
+.social-links .fb{
+    width: 30px;
+    margin: 2px;
+}
+
+.social-links .twitter{
+    width: 30px;
+    margin: 2px;
+}
+
+.social-links .youtube{
+    width: 30px;
+    margin: 2px;
+}
 
